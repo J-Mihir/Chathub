@@ -1,0 +1,94 @@
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  filter: sepia(0.4) grayscale(0.2); /* Apply sepia and grayscale filters for a vintage effect */
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(75deg, #c2a580 0%, #ad9473 50%, #c2a580 100%); /* Vintage color gradient */
+  /* Vertical center */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-card {
+  width: 50%;
+  max-width: 350px;
+  padding: 0% 25% 0% 25%;
+  background-color: rgba(255, 255, 255, 0.8); /* Vintage white background */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Vintage box shadow */
+}
+
+.form-title { 
+  font-size: 42px; 
+  font-family: 'Avenir'; 
+  font-weight: 800; 
+  letter-spacing: 0.5px; 
+  color: #704214; /* Vintage brown color */
+  padding-bottom: 12px; 
+}
+
+.form-subtitle {
+  font-size: 18px;
+  font-family: 'Avenir';
+  letter-spacing: 0.5px;
+  color: #8c7851; /* Vintage tan color */
+  padding-bottom: 24px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: #5a4731; /* Vintage dark brown color */
+  font-family: Avenir;
+  width: 100px;
+}
+.auth-input {
+  background-color: #d4c7ab; /* Vintage beige background */
+  color: #3a2a1b; /* Vintage dark brown text color */
+  font-family: "Avenir";
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+}
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: white;
+  background-color: #704214; /* Vintage brown button color */
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: "Avenir";
+  cursor: pointer;
+  transition: all .44s ease;
+  -webkit-transition: all .44s ease;
+  -moz-transition: all .44s ease;
+}
+.auth-button:hover { filter: brightness(125%); }
+
+.chat-wrapper {
+  height: 80vh; 
+  width: 80%;
+  margin-left: 10%; 
+  color: #3a2a1b; 
+  background: #d4c7ab; 
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Vintage box shadow */
+}
